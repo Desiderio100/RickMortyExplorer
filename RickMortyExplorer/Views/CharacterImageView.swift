@@ -2,7 +2,7 @@
 
 import SwiftUI
 
-// Clean Code: se reutiliza en la lista y en el detalle
+// Se reutiliza en la lista y en el detalle
 struct CharacterImageView: View {
     let url: URL
 

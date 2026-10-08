@@ -9,7 +9,7 @@ struct LoadingView: View {
     }
 }
 
-// Clean Code: vista reutilizable, recibe la acción de reintentar desde afuera
+// Vista reutilizable, recibe la acción de reintentar desde afuera
 struct ErrorView: View {
     let error: APIError
     let retry: () -> Void

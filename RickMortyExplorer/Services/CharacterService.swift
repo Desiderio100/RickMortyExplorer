@@ -2,7 +2,7 @@
 
 import Foundation
 
-// Clean Code: responsabilidad única, este archivo solo se comunica con la API
+// Responsabilidad única, este archivo solo se comunica con la API
 struct CharacterService {
     static let endpoint = "https://rickandmortyapi.com/api/character"
 

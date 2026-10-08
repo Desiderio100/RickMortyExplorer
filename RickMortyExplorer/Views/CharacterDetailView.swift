@@ -52,7 +52,7 @@ struct CharacterDetailView: View {
     }
 }
 
-// Clean Code: vista pequeña y reutilizable para cada dato del personaje
+//Vista pequeña y reutilizable para cada dato del personaje
 struct DetailRow: View {
     let icon: String
     let title: String

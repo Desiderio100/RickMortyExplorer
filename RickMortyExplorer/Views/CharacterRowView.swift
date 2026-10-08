@@ -2,7 +2,7 @@
 
 import SwiftUI
 
-// Clean Code: vista pequeña, solo recibe el personaje que va a mostrar
+// Vista pequeña, solo recibe el personaje que va a mostrar
 struct CharacterRowView: View {
     let character: ShowCharacter
 

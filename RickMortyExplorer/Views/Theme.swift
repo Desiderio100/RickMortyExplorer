@@ -7,7 +7,7 @@ extension Color {
 }
 
 extension View {
-    // Clean Code: el estilo de tarjeta se define una vez y lo usan las dos listas
+    //El estilo de tarjeta se define una vez y lo usan las dos listas
     func cardRow() -> some View {
         self
             .listRowSeparator(.hidden)

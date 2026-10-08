@@ -7,7 +7,7 @@ struct CharacterResponse: Decodable {
     let results: [ShowCharacter]
 }
 
-// Clean Code: las propiedades se llaman igual que en el JSON, así no hacen falta CodingKeys
+// las propiedades se llaman igual que en el JSON, así no hacen falta CodingKeys
 struct ShowCharacter: Decodable, Identifiable, Hashable {
     let id: Int
     let name: String

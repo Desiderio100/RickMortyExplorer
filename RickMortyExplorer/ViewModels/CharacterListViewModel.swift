@@ -3,7 +3,7 @@
 import Foundation
 import Observation
 
-// Clean Code: la lógica vive en el ViewModel y la vista solo muestra el resultado
+// La lógica vive en el ViewModel y la vista solo muestra el resultado
 @MainActor
 @Observable
 final class CharacterListViewModel {
